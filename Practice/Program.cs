@@ -277,5 +277,15 @@ class Program
 
         //PracticeEx px = new PracticeEx();
         //px.Greet();
+
+        //------------remove duplicate characters from string ---------
+
+        //RemoveDuplicate rd = new RemoveDuplicate();
+        //rd.RemoveDuplicates();
+
+        //-----------Count of Letters, Digits and Special Characters in a string ---------
+
+        CountOfDigitsLetterSpecial cdl = new CountOfDigitsLetterSpecial();
+        cdl.Count();
     }
 }
