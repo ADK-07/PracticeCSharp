@@ -3,7 +3,7 @@ using System.Net.Http.Headers;
 
 class Program
 {
-    static void Main(string[] args )
+    static void Main(string[] args)
     {
         //----prime -------
 
@@ -285,7 +285,61 @@ class Program
 
         //-----------Count of Letters, Digits and Special Characters in a string ---------
 
-        CountOfDigitsLetterSpecial cdl = new CountOfDigitsLetterSpecial();
-        cdl.Count();
+        //CountOfDigitsLetterSpecial cdl = new CountOfDigitsLetterSpecial();
+        //cdl.Count();
+
+        //-----------Second most repeated character in a string ---------
+
+        //SecondMostReapeatedCharacter smrc = new SecondMostReapeatedCharacter();
+        //smrc.FindSecondMostRepeatedCharacter();
+
+
+        //-----------oops concepts-----------------
+
+        //Car car1 = new Car();
+        //car1.brand = "BMW";
+        //car1.Speed();
+
+        //----------encapsulation + properties ------------
+
+        //BankAccount account = new BankAccount();
+        //Console.WriteLine(account.Balance);
+        //account.Deposit = 5000;
+        //Console.WriteLine(account.Balance);
+
+        //---------------encapsulation + method -------------
+
+        //UserAccount ua = new UserAccount();
+        //Console.WriteLine("new password : ");
+        //string? password = Console.ReadLine();
+        //if (password != null)
+        //{
+        //    ua.SetPassword(password);
+        //    bool login = ua.CheckPassword(password);
+        //}
+
+
+
+        //----------next example of encapsulation --------
+
+        //BankAccountRealWorldExample ba = new BankAccountRealWorldExample(101, "Adarsh", 50000);
+        //ba.Display();
+        //ba.Deposit(3000);
+        //ba.Withdraw(4000);
+        //ba.Display();
+
+
+        //----------inheritance example --------------
+
+        //SavingAccount sa = new SavingAccount(101, 5, 50000, "Adarsh");
+        //sa.AddInterest();
+        //sa.Display();
+
+        //Console.WriteLine();
+
+        //CurrentAccount ca = new CurrentAccount(101, 10000, 50000, "Adarsh");
+        //ca.Withdraw(2500);
+        //ca.Display();
+
     }
 }
